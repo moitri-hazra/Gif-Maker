@@ -1,31 +1,43 @@
-# Gif Maker Application
+# GIF Maker App
 
-## Local Development Setup
+This is a simple GIF Maker app built with React. It allows users to create GIFs from selected images.
+
+## Getting Started
+
+These instructions will help you set up the project on your local machine for development and testing purposes.
 
 ### Prerequisites
 
-- Node.js and npm installed on your machine.
+Make sure you have Node.js and npm installed on your machine.
 
-### Steps
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
 
-1. **Clone the Repository:**
+### Installing
 
-   ```bash
-   git clone <repository-url>
+1. Clone the repository:
 
+    ```bash
+    git clone https://github.com/your-username/gif-maker.git
+    ```
 
+2. Navigate to the project directory:
 
-### Navigate to the Project Directory:
+    ```bash
+    cd gif-maker
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+### Running the App
+
+To start the development server and run the app locally, use the following command:
 
 ```bash
+npm start
 
-cd cd your-project-directory
-
-Replace your-project-directory with the name of the directory where the repository was cloned.
-
-### Install Dependencies:
-
-```bash
-
-npm install
 
