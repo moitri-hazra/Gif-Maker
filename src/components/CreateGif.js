@@ -67,7 +67,7 @@ const CreateGif = () => {
     const handleDownload = () => {
         const a = document.createElement('a');
         a.href = createdGif;
-        a.download = 'created_gif.gif';
+        a.download = 'created_with_GifMaker.gif';
         a.click();
     };
 
