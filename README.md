@@ -24,7 +24,8 @@ Make sure you have Node.js and npm installed on your machine.
 2. Navigate to the project directory:
 
     ```bash
-    cd <Your Repo> 
+    cd your-project-directory
+
     ```
 
 3. Install dependencies:
