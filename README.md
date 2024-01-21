@@ -18,7 +18,7 @@ Make sure you have Node.js and npm installed on your machine.
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/gif-maker.git
+    git clone https://github.com/moitri-hazra/Gif-Maker.git
     ```
 
 2. Navigate to the project directory:
