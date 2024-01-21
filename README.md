@@ -24,7 +24,7 @@ Make sure you have Node.js and npm installed on your machine.
 2. Navigate to the project directory:
 
     ```bash
-    cd gif-maker
+    cd <Your Repo> 
     ```
 
 3. Install dependencies:
