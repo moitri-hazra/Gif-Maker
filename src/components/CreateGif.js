@@ -22,11 +22,24 @@ const CreateGif = () => {
     const handleImageChange = (e) => {
         const file = e.target.files[0];
         if (file) {
+            const allowedTypes = ['image/jpeg', 'image/png', 'image/jpg'];
+            if (!allowedTypes.includes(file.type)) {
+                alert('Please upload a valid JPG, JPEG, or PNG image.');
+                return;
+            }
+
+            const maxSize = 5 * 1024 * 1024; 
+            if (file.size > maxSize) {
+                alert('File size exceeds the maximum limit of 5MB.');
+                return;
+            }
+    
             const updatedImages = [...selectedImages];
             updatedImages[currentPage - 1] = URL.createObjectURL(file);
             setSelectedImages(updatedImages);
         }
     };
+    
 
     const handleCreateGif = () => {
         const images = selectedImages.filter((image) => image !== null);
