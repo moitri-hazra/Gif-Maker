@@ -168,8 +168,9 @@ const CreateGif = () => {
                         </div>
                     </div>
                 </div>
+                <Footer />
             </div>
-            <Footer />
+            
         </>
     );
 };
