@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+
+@font-face {
+  font-family: 'Holyfat';
+  src: url('../public/Fonts/Holyfat.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Holyfat {
+  font-family: 'Holyfat';
+
+}
